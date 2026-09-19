@@ -25,7 +25,6 @@ def model(inp):
     y_pred = w * x + b
     test_pred = w * test + b
 
-    print("Train : ", y_pred)
     print("Celsius :", test_pred)
 
 
