@@ -56,4 +56,4 @@ def creatmodel():
 
     return w, b
 
-model(np.array([100])) # Enter the desired Fahrenheit temperature here
+model(np.array([int(input("Farenheit :"))])) # Enter the desired Fahrenheit temperature here
