@@ -13,6 +13,12 @@ b = 0
 
 learning_rate = 0.00001
 
+print("""
+╔══════════════════════════════╗
+║     Linear Regression ML     ║
+╚══════════════════════════════╝
+""")
+
 def model(inp):
 
     global test
@@ -21,6 +27,7 @@ def model(inp):
 
     try:
         w, b = loadmodel()
+        print("Model loaded ✓")
 
     except FileNotFoundError:
         w, b = creatmodel()
