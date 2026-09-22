@@ -1,4 +1,3 @@
-
 # Fahrenheit → Celsius ML Model 🌡️
 
 A simple **Machine Learning model** built from scratch with **Python and NumPy** to predict Celsius values from Fahrenheit temperatures.
@@ -45,16 +44,12 @@ The prediction is then calculated from the learned model.
 
 ## 🚀 Usage
 
-Enter the Fahrenheit temperature in:
-
-```python
-model(np.array([100]))
-```
+Enter the Fahrenheit temperature in Terrminal.
 
 For example:
 
-```python
-model(np.array([32, 50, 100]))
+```Shell
+Fahrenheit : 100
 ```
 
 The model will return the predicted Celsius values.
@@ -62,7 +57,7 @@ The model will return the predicted Celsius values.
 Example:
 
 ```text
-Celsius : [  0.    10.    37.78]
+Celsius : 37.78
 ```
 
 ## 💾 Model Persistence
